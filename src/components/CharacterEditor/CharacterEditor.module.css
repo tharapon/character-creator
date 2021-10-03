@@ -29,11 +29,10 @@
 }
 
 .characterWrapper {
-	padding-top: 96px;
 	position: fixed;
-	right: 0;
-	top: 0;
-	width: 35%;
+	top: 15%;
+	left: 60%;
+	bottom: 5%;
 	min-height: 500px;
 }
 
@@ -43,10 +42,10 @@
 
 .perspective {
 	position: fixed;
+	top: 60%;
 	height: 40%;
 	width: 100%;
 	background-color: hsl(195deg, 20%, 86%);
-	bottom: 0;
 }
 
 @media only screen and (max-width: 600px) {
