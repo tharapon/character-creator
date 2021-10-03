@@ -1,4 +1,10 @@
 .character {
-  /* Fill the available container height */
-  height: 100%;
+	/* Fill the available container height */
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.character {
+		display: inline-block;
+	}
 }

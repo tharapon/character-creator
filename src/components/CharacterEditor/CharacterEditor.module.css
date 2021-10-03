@@ -48,3 +48,33 @@
 	background-color: hsl(195deg, 20%, 86%);
 	bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+	.header {
+		display: none;
+	}
+
+	.characterWrapper {
+		left: 0;
+		width: 100%;
+	}
+
+	.maxWidthWrapper {
+		width: 100%;
+		overflow: auto;
+	}
+
+	.controlColumn {
+		overflow: auto;
+		white-space: nowrap;
+		max-width: 100%;
+		position: relative;
+		z-index: 10;
+		overflow-x: auto;
+		overflow-y: hidden;
+		white-space: nowrap;
+	}
+	.perspective {
+		display: none;
+	}
+}
